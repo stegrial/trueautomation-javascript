@@ -14,7 +14,7 @@ Install needed packages:
 npm install
 ```
 
-and run test:
+Run test:
 
 ```bash
 npm test
