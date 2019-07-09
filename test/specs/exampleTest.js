@@ -12,7 +12,7 @@ const { ta } = require('trueautomation-helper');
         await driver.wait(until.titleIs('TrueAutomation.IO'), 1000);
 
         await driver.findElement(By.css(ta('signUpBtn', 'div.sign-up-container > a'))).click();
-        await driver.findElement(By.name(ta('emailFld:colon:error', 'email'))).sendKeys('your@gmail.com');
+        await driver.findElement(By.name(ta('emailFld', 'email'))).sendKeys('your@gmail.com');
     } finally {
         await driver.quit();
     }
