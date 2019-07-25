@@ -1,5 +1,4 @@
-const { By } = require('selenium-webdriver');
-const { Builder } = require('trueautomation-selenium-webdriver');
+const { By, Builder } = require('trueautomation-selenium-webdriver');
 const { ta } = require('trueautomation-helper');
 
 (async function example() {
