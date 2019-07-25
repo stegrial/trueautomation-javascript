@@ -1,7 +1,7 @@
 {
   "name": "trueautomation-javascript",
   "version": "1.0.0",
-  "description": "Javascript + TrueAutomation example project",
+  "description": "JavaScript + TrueAutomation example project",
   "main": "index.js",
   "scripts": {
     "test": "node test/specs/*.js"
